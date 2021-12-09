@@ -1,0 +1,111 @@
+.header {
+    padding: 64px 0px 94px 0px;
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__logo-img {
+        width: 60px;
+        height: 32px;
+        transition: opacity 0.6s ease;
+    }
+
+    .header__logo-img:hover {
+        opacity: 0.8;
+    }
+
+    .header__logo-img:active {
+        opacity: 0.6;
+    }
+
+    .header__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .header__item + .header__item {
+        margin-left: 42px;
+    }
+
+    .header__link {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $grayish-dark-blue;
+        transition: color 0.4s ease;
+    }
+
+    .header__link:hover {
+        color: $slightly;
+    }
+
+    .header__link:active {
+        color: $light-grey;
+    }
+
+    .burger-btn {
+        display: none;
+        width: 24px;
+        height: 13px;
+        border: none;
+        background-color: transparent;
+        background-image: url(../../img/gamburger.svg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .header {
+        .header__nav {
+            display: none;
+        }
+
+        .burger-btn {
+            display: flex;
+        }
+    }
+
+    .header--open .header__nav {
+        display: flex;
+        position: absolute;
+        top: 30%;
+        right: 20px;
+        z-index: 11;
+        background: $grayish-dark-blue;
+    }
+
+    .header--open .header__list {
+        padding: 40px 65px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header--open .header__item {
+        margin-left: 0px;
+        margin-bottom: 24px;
+    }
+
+    .header--open .header__item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .header--open .header__item + .header__item {
+        margin-left: 0px;
+    }
+
+    .header--open .header__link {
+        color: #ffffff;
+    }
+
+    .header--open .burger-btn {
+        width: 18px;
+        height: 18px;
+        background-image: url(../../img/close.svg);
+    }
+}
