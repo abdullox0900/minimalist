@@ -1,0 +1,23 @@
+.button {
+    padding: 17px 35px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $grayish-dark-blue;
+    transition: color 0.7s, background-color 0.5s ease;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: $grayish-dark-blue;
+}
+
+.button:active {
+    color: $grayish-dark-blue;
+    border: 1px solid $light-grey;
+    background-color: transparent;
+}
