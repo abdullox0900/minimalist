@@ -433,6 +433,13 @@ img {
   padding: 0 20px;
 }
 
+.container-section {
+  width: 100%;
+  max-width: 1065px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .button {
   padding: 17px 35px;
   font-size: 12px;
