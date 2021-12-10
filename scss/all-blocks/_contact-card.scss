@@ -1,5 +1,5 @@
 .contact-card {
-    padding: 115px 0px 150px;
+    padding: 0px 0px 150px;
 
     &__warapper {
         display: flex;
@@ -22,12 +22,20 @@
     &__line {
         margin: 0px 25px 0px;
         display: inline-block;
-        width: 100%;
+        width: 48%;
         height: 1px;
         background-color: #33323d26;
     }
-}
 
+    &__link {
+        text-decoration: none;
+        color: $grayish-dark-blue;
+    }
+
+    &__link:hover {
+        color: #ffffff;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .contact-card {
@@ -43,7 +51,6 @@
             max-width: 100%;
             text-align: center;
             flex-shrink: 1000;
-
         }
 
         &__line {

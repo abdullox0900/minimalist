@@ -2,33 +2,32 @@
     flex-grow: 1;
 }
 // ABOUT
-.about{
-
+.about {
     margin-bottom: 150px;
 
-    &__container{
+    &__container {
         display: flex;
         align-items: center;
     }
 
-    &__img{
+    &__img {
         width: 100%;
         max-width: 50%;
         min-height: 350px;
         height: 600px;
         margin-right: 10%;
     }
-    &__wrapper{
+    &__wrapper {
         width: 100%;
         margin: 0;
         padding: 0;
     }
-    &__pic{
+    &__pic {
         width: 100%;
         max-width: 75%;
         margin-bottom: 50px;
     }
-    &__heading{
+    &__heading {
         margin: 0;
         font-family: Ibarra Real Nova;
         font-style: normal;
@@ -36,40 +35,39 @@
         font-size: 40px;
         line-height: 42px;
         letter-spacing: -0.357143px;
-        color: #33323D;
+        color: #33323d;
         margin-bottom: 28px;
     }
-    &__desc{
+    &__desc {
         margin: 0;
         font-family: Public Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 30px;
-        color: #33323D;
+        color: #33323d;
         mix-blend-mode: normal;
         opacity: 0.8;
         width: 100%;
         max-width: 70%;
         margin-bottom: 24px;
     }
-    &__pict{
+    &__pict {
         width: 100%;
         max-width: 75%;
-
     }
 }
 
 // OFFER
 
-.offer{
-    &__container{
+.offer {
+    &__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-bottom: 150px;
     }
-    &__heading{
+    &__heading {
         margin: 0;
         font-family: Ibarra Real Nova;
         font-style: normal;
@@ -77,25 +75,20 @@
         font-size: 40px;
         line-height: 42px;
         letter-spacing: -0.357143px;
-        color: #33323D;
+        color: #33323d;
         width: 350px;
     }
-    &__line{
+    &__line {
         width: 100%;
         max-width: 534px;
     }
 }
 // RESPONSIVE
 
-    // ABOUT
-@media only screen and (max-width:1050px){
-    .about{
-
-
-
-
-
-        &__img{
+// ABOUT
+@media only screen and (max-width: 1050px) {
+    .about {
+        &__img {
             width: 100%;
             max-width: 50%;
             min-height: 600px;
@@ -103,13 +96,12 @@
             margin-right: 10%;
         }
 
-
-        &__pic{
+        &__pic {
             width: 100%;
             max-width: 80%;
             margin-bottom: 45px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -117,38 +109,32 @@
             font-size: 37px;
             line-height: 39px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             margin-bottom: 25px;
         }
-        &__desc{
+        &__desc {
             margin: 0;
             font-family: Public Sans;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
             line-height: 27px;
-            color: #33323D;
+            color: #33323d;
             mix-blend-mode: normal;
             opacity: 0.8;
             width: 100%;
             max-width: 75%;
             margin-bottom: 20px;
         }
-        &__pict{
+        &__pict {
             width: 100%;
             max-width: 80%;
-
         }
     }
 }
-@media only screen and (max-width:800px){
-    .about{
-
-
-
-
-
-        &__img{
+@media only screen and (max-width: 800px) {
+    .about {
+        &__img {
             width: 100%;
             max-width: 50%;
             min-height: 600px;
@@ -156,13 +142,12 @@
             margin-right: 10%;
         }
 
-
-        &__pic{
+        &__pic {
             width: 100%;
             max-width: 85%;
             margin-bottom: 40px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -170,52 +155,48 @@
             font-size: 34px;
             line-height: 34px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             margin-bottom: 23px;
         }
-        &__desc{
+        &__desc {
             margin: 0;
             font-family: Public Sans;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
             line-height: 24px;
-            color: #33323D;
+            color: #33323d;
             mix-blend-mode: normal;
             opacity: 0.8;
             width: 100%;
             max-width: 80%;
             margin-bottom: 18px;
         }
-        &__pict{
+        &__pict {
             width: 100%;
             max-width: 85%;
-
         }
     }
 }
-@media only screen and (max-width:700px){
-    .about{
-
-
-        &__container{
+@media only screen and (max-width: 700px) {
+    .about {
+        &__container {
             display: flex;
             flex-direction: column;
         }
-        &__img{
+        &__img {
             width: 100%;
             max-width: 720px;
             height: auto;
             margin-bottom: 40px;
         }
 
-
-        &__pic{
+        &__pic {
             width: 100%;
             max-width: 95%;
             margin-bottom: 40px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -223,40 +204,39 @@
             font-size: 34px;
             line-height: 34px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             margin-bottom: 25px;
         }
-        &__desc{
+        &__desc {
             margin: 0;
             font-family: Public Sans;
             font-style: normal;
             font-weight: normal;
             font-size: 22px;
             line-height: 36px;
-            color: #33323D;
+            color: #33323d;
             mix-blend-mode: normal;
             opacity: 0.8;
             width: 95%;
             max-width: 100%;
             margin-bottom: 24px;
         }
-        &__pict{
+        &__pict {
             width: 100%;
             max-width: 95%;
-
         }
     }
 }
 // OFFER
-@media only screen and (max-width:900px){
-    .offer{
-        &__container{
+@media only screen and (max-width: 900px) {
+    .offer {
+        &__container {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 150px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -264,25 +244,24 @@
             font-size: 35px;
             line-height: 38px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             min-width: 280px;
         }
-        &__line{
+        &__line {
             width: 100%;
             max-width: 500px;
-
         }
     }
 }
-@media only screen and (max-width:830px){
-    .offer{
-        &__container{
+@media only screen and (max-width: 830px) {
+    .offer {
+        &__container {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 150px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -290,25 +269,24 @@
             font-size: 30px;
             line-height: 32px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             min-width: 250px;
         }
-        &__line{
+        &__line {
             width: 100%;
             max-width: 400px;
-
         }
     }
 }
-@media only screen and (max-width:800px){
-    .offer{
-        &__container{
+@media only screen and (max-width: 800px) {
+    .offer {
+        &__container {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 150px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -316,24 +294,23 @@
             font-size: 25px;
             line-height: 26px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             min-width: 200px;
         }
-        &__line{
+        &__line {
             width: 100%;
             max-width: 300px;
-
         }
     }
 }
-@media only screen and (max-width:700px){
-    .offer{
-        &__container{
+@media only screen and (max-width: 700px) {
+    .offer {
+        &__container {
             display: flex;
             flex-direction: column;
             margin-bottom: 150px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -341,25 +318,24 @@
             font-size: 40px;
             line-height: 40px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             text-align: center;
             min-width: 200px;
             margin-bottom: 40px;
         }
-        &__line{
+        &__line {
             display: none;
-
         }
     }
 }
-@media only screen and (max-width:450px){
-    .offer{
-        &__container{
+@media only screen and (max-width: 450px) {
+    .offer {
+        &__container {
             display: flex;
             flex-direction: column;
             margin-bottom: 150px;
         }
-        &__heading{
+        &__heading {
             margin: 0;
             font-family: Ibarra Real Nova;
             font-style: normal;
@@ -367,14 +343,13 @@
             font-size: 32px;
             line-height: 30px;
             letter-spacing: -0.357143px;
-            color: #33323D;
+            color: #33323d;
             text-align: center;
             min-width: 200px;
             margin-bottom: 40px;
         }
-        &__line{
+        &__line {
             display: none;
-
         }
     }
 }
