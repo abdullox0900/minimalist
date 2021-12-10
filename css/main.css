@@ -773,19 +773,6 @@ img {
   }
 }
 
-.manage .manage__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.manage .manage__wrapper {
-  margin-left: 125px;
-}
-
 .contact-hero {
   padding: 0px 0px 86px;
 }
