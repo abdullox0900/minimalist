@@ -15,10 +15,6 @@
         flex-direction: row-reverse;
     }
 
-    .portfolio__item .portfolio__wrap:nth-child(even) {
-        margin-right: 120px;
-    }
-
     .portfolio__item + .portfolio__item {
         margin-top: 80px;
     }
@@ -31,8 +27,13 @@
     .portfolio__wrap {
         padding: 103px 0px;
         margin-left: 120px;
+        margin-right: 0px;
         border-top: 1px solid $light-grey;
         border-bottom: 1px solid $light-grey;
+    }
+
+    .portfolio__item .portfolio__wrap:nth-child(even) {
+        margin-right: 120px;
     }
 
     .portfolio__header {
@@ -55,5 +56,177 @@
         color: $grayish-dark-blue;
         mix-blend-mode: normal;
         opacity: 0.8;
+    }
+}
+
+// RESPONSIV
+
+@media only screen and (max-width: 1150px) {
+    .portfolio {
+        .portfolio__wrap {
+            padding: 70px 0px;
+            margin-left: 100px;
+        }
+
+        .portfolio__item .portfolio__wrap:nth-child(even) {
+            margin-right: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1005px) {
+    .portfolio {
+        .portfolio__item {
+            justify-content: space-between;
+        }
+
+        .portfolio__img {
+            width: 440px;
+            height: 400px;
+        }
+
+        .portfolio__wrap {
+            padding: 55px 0px;
+            margin-left: 0px;
+        }
+
+        .portfolio__item .portfolio__wrap:nth-child(even) {
+            margin-right: 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .portfolio {
+        .portfolio__img {
+            width: 400px;
+            height: 350px;
+        }
+
+        .portfolio__wrap {
+            padding: 35px 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .portfolio {
+        .portfolio__img {
+            width: 360px;
+            height: 330px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolio {
+        padding-bottom: 96px;
+        .portfolio__img {
+            width: 339px;
+            height: 314px;
+        }
+
+        .portfolio__wrap {
+            padding: 32px 0px;
+        }
+
+        .portfolio__desc {
+            max-width: 281px;
+        }
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .portfolio {
+        .portfolio__img {
+            width: 300px;
+            height: 290px;
+        }
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .portfolio {
+        .portfolio__item {
+            flex-direction: column;
+        }
+
+        .portfolio__item:nth-child(even) {
+            flex-direction: column;
+        }
+
+        .portfolio__img {
+            width: 450px;
+            height: 350px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .portfolio {
+        .portfolio__img {
+            width: 330px;
+            height: 290px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .portfolio {
+        padding-bottom: 80px;
+        .portfolio__img {
+            width: 311px;
+            height: 288px;
+            margin-bottom: 32px;
+        }
+
+        .portfolio__wrap {
+            padding: 24px 0px;
+            max-width: 311px;
+        }
+
+        .portfolio__desc {
+            font-size: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .portfolio {
+        .portfolio__img {
+            width: 280px;
+            height: 260px;
+        }
+
+        .portfolio__header {
+            font-size: 38px;
+        }
+    }
+}
+
+@media only screen and (max-width: 318px) {
+    .portfolio {
+        .portfolio__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .portfolio__img {
+            width: 250px;
+            height: 200px;
+        }
+
+        .portfolio__header {
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .portfolio__desc {
+            font-size: 14px;
+            text-align: center;
+        }
     }
 }
