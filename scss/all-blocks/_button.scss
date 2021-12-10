@@ -1,9 +1,12 @@
 .button {
+    display: inline-block;
     padding: 17px 35px;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 2px;
+    color: $grayish-dark-blue;
     text-transform: uppercase;
+    text-decoration: none;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -22,79 +25,33 @@
     background-color: transparent;
 }
 
-.hero__btn{
+.hero__btn {
     display: flex;
     text-decoration: none;
     align-items: center;
     justify-content: space-between;
-    background-color:#203A4C;
+    background-color: #203a4c;
     color: #fff;
     width: 100%;
-    max-width:200px;
+    max-width: 200px;
     border: none;
     background-image: url("../img/btn-img.svg");
     background-repeat: no-repeat;
     background-size: 48px 48px;
     padding: 17px 0px 17px 48px;
 }
-.hero__btn:hover{
+.hero__btn:hover {
     opacity: 0.8;
     transform: scale(1.05);
-    transition: .2s all;
+    transition: 0.2s all;
     box-shadow: 5px 5px 5px black;
 }
-.hero__btn:active{
+.hero__btn:active {
     opacity: 0.6;
     box-shadow: 5px 5px 5px red;
 }
 
-
-.about__link{
+.about__link {
     text-decoration: none;
     border: 1px solid #000;
-    margin-bottom: 46px;
-    padding: 17px 36px;
-    font-family: Public Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #33323D;
-
-}
-.about__link:hover{
-    opacity: 0.8;
-    transform: scale(1.05);
-    transition: .2s all;
-    box-shadow: 5px 5px 5px black;
-}
-.about__link:active{
-    opacity: 0.6;
-    box-shadow: 5px 5px 5px red;
-}
-.offer__link{
-    padding: 17px 35px;
-    min-width: 180px;
-    text-decoration: none;
-    border: 1px solid #000;
-    font-family: Public Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #33323D;
-}
-.offer__link:hover{
-    opacity: 0.8;
-    transform: scale(1.05);
-    transition: .2s all;
-    box-shadow: 5px 5px 5px black;
-}
-.offer__link:active{
-    opacity: 0.6;
-    box-shadow: 5px 5px 5px red;
 }
