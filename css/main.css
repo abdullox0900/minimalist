@@ -659,7 +659,7 @@ img {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    top: 30%;
+    top: 15%;
     right: 20px;
     z-index: 11;
     background: #33323d;
