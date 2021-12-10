@@ -1,0 +1,329 @@
+.hero{
+
+    margin-bottom: 153px;
+
+    &__container{
+        background-image: url("../img/backimg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+        // width: 100%;
+        max-width: 1110px;
+        height: auto;
+        padding: 243px 0px 0px 0px;
+
+    }
+
+    &__top{
+        width: 100%;
+        max-width: 445px;
+        height: auto;
+        background-color: #fff;
+        padding-top: 56px;
+
+    }
+    &__heading{
+        margin: 0;
+        font-family: Ibarra Real Nova;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+        width: 100%;
+        max-width: 390px;
+        margin-bottom: 53px;
+
+    }
+
+    &__desc{
+        margin: 0;
+        width: 152px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+}
+
+// RESPONSIVE
+@media only screen and (max-width:850px){
+
+    .hero{
+
+    &__container{
+        position: relative;
+        background-image: url("../img/backimg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+        max-width: 850px;
+        height: 500px;
+        padding: 243px 0px 0px 0px;
+
+    }
+    &__top{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        background-color: #fff;
+        padding-top: 50px;
+
+    }
+    &__heading{
+        margin: 0;
+        font-family: Ibarra Real Nova;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 35px;
+    }
+    }
+}
+@media only screen and (max-width:750px){
+
+    .hero{
+
+    &__container{
+        position: relative;
+        background-image: url("../img/backimg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+        max-width: 850px;
+        height: 500px;
+        padding: 243px 0px 0px 0px;
+
+    }
+    &__top{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        background-color: #fff;
+        padding-top: 45px;
+
+    }
+    &__heading{
+        margin: 0;
+        font-family: Ibarra Real Nova;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 38px;
+        line-height: 38px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+        width: 100%;
+        max-width: 330px;
+        margin-bottom: 35px;
+    }
+    }
+}
+@media only screen and (max-width:600px){
+
+    .hero{
+
+        &__container{
+            position: relative;
+            background-image: url("../img/backimg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 450px;
+            max-width: 850px;
+            height: 500px;
+            padding: 243px 0px 0px 0px;
+
+        }
+        &__top{
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            max-width: 330px;
+            height: auto;
+            background-color: #fff;
+            padding-top: 40px;
+
+        }
+        &__heading{
+            margin: 0;
+            font-family: Ibarra Real Nova;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 33px;
+            line-height: 33px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 30px;
+        }
+        }
+}
+@media only screen and (max-width:560px){
+
+    .hero{
+
+        &__container{
+            position: relative;
+            background-image: url("../img/backimg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 400px;
+            max-width: 850px;
+            height: 500px;
+            padding: 243px 0px 0px 0px;
+
+        }
+        &__top{
+            position: absolute;
+            bottom: 100px;
+            width: 100%;
+            max-width: 290px;
+            height: auto;
+            background-color: #fff;
+            padding-top: 35px;
+
+        }
+        &__heading{
+            margin: 0;
+            font-family: Ibarra Real Nova;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 28px;
+            line-height: 28px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+            width: 100%;
+            max-width: 280px;
+            margin-bottom: 30px;
+        }
+        }
+}
+@media only screen and (max-width:480px){
+
+    .hero{
+
+        &__container{
+            position: relative;
+            background-image: url("../img/backimg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 350px;
+            max-width: 850px;
+            height: 500px;
+            padding: 243px 0px 0px 0px;
+
+        }
+        &__top{
+            position: absolute;
+            bottom: 150px;
+            width: 100%;
+            max-width: 240px;
+            height: auto;
+            background-color: #fff;
+            padding-top: 30px;
+
+        }
+        &__heading{
+            margin: 0;
+            font-family: Ibarra Real Nova;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+            width: 100%;
+            max-width: 270px;
+            margin-bottom: 30px;
+        }
+        }
+}
+@media only screen and (max-width:460px){
+
+    .hero{
+
+        &__container{
+            position: relative;
+            background-image: url("../img/phone\ back.png");
+            background-repeat: no-repeat;
+            background-size: 100% 300px;
+            width: 100%;
+            max-width: 460px;
+            height: 500px;
+            padding: 243px 0px 0px 0px;
+
+        }
+        &__top{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            max-width: 460px;
+            height: auto;
+            background-color: #fff;
+            padding-top: 20px;
+
+        }
+        &__heading{
+            margin: 0;
+            font-family: Ibarra Real Nova;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 36px;
+            line-height: 36px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+            width: 100%;
+            max-width: 350px;
+            margin-bottom: 25px;
+        }
+        }
+}
+@media only screen and (max-width:335px){
+
+    .hero{
+
+        &__container{
+            position: relative;
+            background-image: url("../img/phone\ back.png");
+            background-repeat: no-repeat;
+            background-size: 100% 300px;
+            width: 100%;
+            max-width: 460px;
+            height: 500px;
+            padding: 243px 0px 0px 0px;
+
+        }
+        &__top{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            max-width: 460px;
+            height: auto;
+            background-color: #fff;
+            padding-top: 20px;
+
+        }
+        &__heading{
+            margin: 0;
+            font-family: Ibarra Real Nova;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+            width: 100%;
+            max-width: 350px;
+            margin-bottom: 25px;
+        }
+        }
+}
