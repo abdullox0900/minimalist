@@ -7,3 +7,9 @@
         height: auto;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .contact-hero {
+        padding: 0px 0px 30px;
+    }
+}
